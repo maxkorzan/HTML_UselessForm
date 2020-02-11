@@ -10,5 +10,10 @@ public class HomeController {
         return "index";
     }
 
+   @RequestMapping("/bootstrap")
+    public String bootstrap(){
+        return "bootstraplesson";
+    }
+
 
 }
